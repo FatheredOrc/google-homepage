@@ -48,3 +48,7 @@ a {
 	display: inline-block;
 	text-decoration: none;
 }
+.right-icons li {
+    float: right;
+    text-align: center;
+}
