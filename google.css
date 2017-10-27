@@ -37,11 +37,14 @@
 	height: 36px;
 }
 
-li {
-	display: inline;
-	text-decoration: underline;
-	color: blue;
-	font-family: Arial;
-	margin: 0;
-	padding: 0;
+.right-icons {
+	position: absolute;
+	font-size: 13px;
+	display: inline-block;
+	text-align: right;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
 }
