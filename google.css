@@ -38,10 +38,11 @@
 }
 
 .right-icons {
-	position: absolute;
 	font-size: 13px;
-	display: inline-block;
 	text-align: right;
+	list-style-type: none;
+	float: right;
+	margin-top: 1px;
 }
 
 a {
@@ -50,5 +51,22 @@ a {
 }
 .right-icons li {
     float: right;
-    text-align: center;
+    margin: 10px;
+    padding-left: 8px;
+}
+ul {
+	padding-top: 10px;
+	padding-right: 70px;
+}
+.icons {
+	width: 17px;
+}
+.sign-in {
+	background-color: #619bff;
+	font-weight: bold;
+	outline: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: -10px;
+	text-align: center;
 }
