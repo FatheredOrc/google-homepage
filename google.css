@@ -56,17 +56,34 @@ a {
 }
 ul {
 	padding-top: 10px;
-	padding-right: 70px;
+	padding-right: 30px;
 }
 .icons {
 	width: 17px;
 }
 .sign-in {
-	background-color: #619bff;
+	background: rgb(67,135,253);
+	color: #ffffff
 	font-weight: bold;
 	outline: none;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	margin: -10px;
 	text-align: center;
+	border: 4px solid rgb(67,135,253);
 }
+
+.bottom-icons {
+	list-style-type: none;
+	margin: 700px;
+	margin-left: 0;
+	text-decoration: none;
+	border: 4px solid grey;
+	background-color: grey;
+}
+
+.bottom-iconss {
+	display: inline-block;
+	padding: 10px;
+}
+
